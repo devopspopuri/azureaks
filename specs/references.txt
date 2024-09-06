@@ -1,0 +1,14 @@
+Project Outcomes
+==================
+A reactjs application deployed on 2 pods using Load Balancer to manage traffic.
+reactjs application talks to backend deployed on 2 pods and using a database to read/write
+
+Application is monitored using prometheus and logs are pushed to ELK
+
+All infrastrure should be provisioned using terraform and configuration done with ansible
+
+pipelines to deploy code of frontend/backend apps when code is committed to repository
+running tests integated with sonarcube and security tools and deployed to AKS cluster
+
+
+https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices
