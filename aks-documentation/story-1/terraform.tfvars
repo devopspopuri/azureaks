@@ -1,0 +1,6 @@
+client_id = "your-appID"
+client_secret =  "appID-secret"
+tenant_id =  " "
+subscription_id = " "
+resource_group_name = "story1-aks"
+location = "West US"
